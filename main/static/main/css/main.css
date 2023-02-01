@@ -1,0 +1,80 @@
+body {
+    background: #f5e0df;
+}
+aside {
+    float: left;
+    background: #f0eb67;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+aside img {
+    width: 70px;
+    float: left;
+}
+aside .logo {
+    color: #080808;
+    font-size: 30px;
+    margin-left: 75px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+aside h3 {
+    color: #080808;
+    font-size: 25px;
+    margin-top: 50px;
+}
+aside ul {
+    list-style: none;
+    margin-left: -10px;
+}
+aside ul li {
+    color: #080808;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    transition: transform .4s ease;
+}
+aside a img, a .logo { transition: transform .100s ease;}
+aside a img:hover, a .logo:hover {
+    transform: scale(1.1);
+}
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    transform: scale(1.05);
+}
+aside a {text-decoration: none;}
+body .features {
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+    width: 75%;
+}
+body .features h1 {font-size: 50px;}
+body .features p {max-width: 400px; margin: 20px auto;}
+body .supper img {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+}
+body .supper {
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+    width: 75%;
+}
+body .supper aside form {float: right; margin-top: -5px}
+body .supper aside .sup {margin-top: -30px}
+body .supper aside {
+    float: right;
+    margin-right: -60px;
+    margin-top: -130px;
+    background: #4d4d4d;
+    width: 28%;
+    padding: 2.5%;
+    height: 210px;
+    border: 5px solid #080808;
+}
